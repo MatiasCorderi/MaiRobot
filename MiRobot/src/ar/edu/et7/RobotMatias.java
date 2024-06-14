@@ -6,7 +6,7 @@ import robocode.Robot;
 //TODO Renombrar este archivo y el nombre de la clase, 
 //el nombre debe incluir el apellido del alumno
 
-public class MiRobot extends Robot {
+public class RobotMatias extends Robot {
 	
 	public void run() {
 		
@@ -16,10 +16,10 @@ public class MiRobot extends Robot {
 			//en Robocode presionando Restart
             ahead(300);
 
-            turnGunRight(860);
+            turnGunRight(660);
 
-            back(800);
+            back(200);
 
-            turnGunRight(560);		}
+            turnGunRight(860);		}
 	}
 }
